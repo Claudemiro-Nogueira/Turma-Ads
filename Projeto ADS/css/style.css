@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    background-color: rgb(27, 27, 27);
+}
+
+*{
+    margin: 0;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(27, 27, 27);
+    
+}
+
+.nav-itens{
+    display: flex;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+a:hover{
+    background-color: white;
+    color: rgb(27, 27, 27);
+}
+
+p{
+    color: aliceblue;
+}
+main{
+    height: 90vh;
+    position: relative;
+    background-color: rgb(27, 27, 27);
+    overflow: hidden;
+    display: flex;
+    width: 100vw;
+
+}
+
+.img-clau{
+    width: 90%;
+    -webkit-mask-image: linear-gradient(to top, transparent 55%, black 100%);
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    width: 50%;
+}
+
+h1{
+    color: aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h2{
+    color: aliceblue;
+    margin-bottom: 24px;
+}
+
+.sobre a{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.sobre a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+section{
+    width: 100vw;
+    background-color: rgb(27, 27, 27);
+    overflow: hidden;
+    height: 100vh;
+    margin-top: 70px;
+}
+
+
+
+#s1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.containers1{
+    display: flex;
+    margin-top: 24px;
+}
+
+
+.imagens-da-turma{    
+    margin-left: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 50%;
+}
+
+
+.imagem-luan{
+    width: 50%;
+}
+.imagem-luan img{
+    width: 100%;
+    -webkit-mask-image: linear-gradient(to top, transparent 50%, black 100%);
+  
+}
+
+.imagens-da-turma img{
+    width: 25%;
+    object-fit: cover;
+    object-position: revert;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+
+}
+
+.imagens-da-turma img:hover{
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+#s2{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.container-projetos{
+    display: flex;
+    height: 100%;
+}
+
+.projetos{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projetos-img{
+
+    width: 50%;
+    height: 100%;
+    position: relative;
+}   
+
+
+.projetos-img img{
+    width: 120%;
+    position: absolute;
+    right: -100px;
+    bottom: -100px;
+    -webkit-mask-image: linear-gradient(to top, transparent 20%, black 100%);
+}
+
+.projetos h2, li{
+    text-align: center;
+}
+
+.lista-projetos{
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista-projetos li{
+    padding: 10px;
+}
+
+.tabela{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+table{
+    margin: 24px auto;
+    color: aliceblue;   
+}
+
+td, th{
+    padding: 10px;
+    text-align: left;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 24px auto;
+}
+
+label{
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+input{
+    color: aliceblue;
+    padding: 15px;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.11);
+}   
+
+.comentario{
+    background-color: rgba(0, 0, 0, 0.11);
+    margin-bottom: 1rem;
+}
+
+.enviar{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.enviar:hover{
+    background-color: rgba(128, 255, 0, 0.459);
+}
+
+.resetar{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.resetar:hover{
+    background-color: rgba(255, 51, 0, 0.459);
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+
+#claudemiro a{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
